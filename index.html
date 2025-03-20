@@ -15,29 +15,118 @@
     <style type="text/tailwindcss">
         @theme {
           --font-poppins: "Poppins", sans-serif;      
-        
         }
 
 
       </style>
 
 </head>
-<body class="font-poppins">
-    <header>
+<body class="font-poppins bg-[#f4f7ff] h-screen pt-5">
+    <header class="max-w-7xl mx-auto">
+    <!-- navbar starts here  -->
+     <nav class="bg-white p-7 rounded-xl flex justify-between">
+        <!-- left div  -->
+        <div class="flex items-center ">
+            <div>
+                <img src="./assets/logo.png" alt="">
+            </div>
+            <p class="text-4xl ml-2">
+                <span class="text-gray-600">
+                    Dev
+                </span>
+                 <span class="-ml-[10px] font-bold ">
+                    Board
+                </span>
+            </p>
+        </div>
+           <!-- right  div  -->
+        <div class="flex items-center gap-14">
+            <div class="flex gap-2 bg-[#F4F7FF] p-4 rounded-full">
+                <div>
+                    <img class="w-9" src="./assets/checkbox.png" alt="">
+
+                </div>
+                <div>
+                    <span class="text-4xl font-bold">
+                        23
+                    </span>
+                </div>
+               
+            </div>
+
+            <div class="bg-[#F4F7FF] p-4 rounded-full">
+
+                <img src="./assets/theme-btn.png" alt="">
+            </div>
+
+
+        </div>
+     </nav>
+
 
     </header>
 
-    <main>
+    <main class="max-w-7xl mx-auto mt-20">
+    <!-- div container starts here -->
+    <div class="flex">
+        <!-- left div starts  -->
+        <div class=" flex-[3.13] bg-white p-5">
+        
+            <!-- nav-line-container  -->
+            <div class="grid grid-cols-4 gap-6">
+                <!-- task  -->
+                <div class="bg-[#F4F7FF] rounded-xl p-3 flex items-center gap-2">
+                    <div >
+                        <img class="bg-white p-3 rounded-full" src="./assets/checkbox.png" alt="">
+                    </div>
+                    <div>
+                        <p class="text-gray-400">
+                            Task Assigned
+                        </p>
 
+                        <spa class="text-4xl font-bold">
+                            5
+                        </span>
+                    </div>
+
+                </div>
+                <!-- discover -->
+                 <div class="bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] col-span-2 flex items-center p-4 gap-5 rounded-xl  ">
+                    <div>
+                        <img src="./assets/board.png" alt="">
+                    </div>
+
+                    <p class="text-2xl text-white w-3/5 ">
+                        Discover Something New Today!
+                    </p>
+                 </div>
+                 <!-- date -->
+
+                 <div>
+
+                 </div>
+            </div>
+            <!-- card container -->
+
+        </div>
+
+        
+        <!-- right div starts  -->
+        <div class="flex-1">
+            
+
+        
+        </div>
+    <!-- div container ends here -->
+    </div>
+    
     </main>
 
     <footer>
 
-        
+
     </footer>
 
-    <p>
-        Development Board
-    </p>
+   
 </body>
 </html>
