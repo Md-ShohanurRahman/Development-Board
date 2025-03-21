@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+     <!-- add font family  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
+     <!-- add daisy UI cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> 
+
+     <style type="text/tailwindcss">
+        @theme {
+          --font-poppins: "Poppins", sans-serif;      
+        }
+      </style>
+
+</head>
+<body class="font-poppins bg-[#f4f7ff]  pt-5  ">
+
+    <header class="max-w-7xl mx-auto">
+        <!-- navbar starts here  -->
+         <nav class="bg-white p-7 rounded-xl flex justify-between">
+            <!-- left div  -->
+            <div class="flex items-center ">
+                <div>
+                    <img src="./assets/logo.png" alt="">
+                </div>
+                <p class="text-4xl ml-2">
+                    <span class="text-gray-600">
+                        Dev
+                    </span>
+                     <span class="-ml-[10px] font-bold ">
+                        Board
+                    </span>
+                </p>
+            </div>
+               <!-- right  div  -->
+            <div >
+                <div>
+                   
+                    <button id="back-btn" class=" text-base text-white font-medium bg-blue-600 px-5 py-3 rounded-lg">
+                        Back To Desk
+                    </button >
+    
+            </div>
+         </nav>
+    
+    
+        </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="./script.js/backBtn.js"></script>
+</body>
+</html>
