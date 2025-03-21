@@ -20,7 +20,7 @@
       </style>
 
 </head>
-<body class="font-poppins bg-[#f4f7ff]  pt-5  ">
+<body class="font-poppins bg-[#f4f7ff]  pt-5  pb-9  ">
 
     <header class="max-w-7xl mx-auto">
         <!-- navbar starts here  -->
@@ -137,6 +137,57 @@
                     <p class="mb-4 ">
                         Event delegation in the DOM is a technique where instead of attaching event listeners to individual elements, you attach a single event listener to a parent element. This parent element listens for events on its child elements. When an event occurs on a child element, it "bubbles" up to the parent, which can then handle the event.This approach is more efficient because it reduces the number of event listeners in the DOM, especially when there are many child elements. It also allows you to handle events on dynamically added elements without needing to add event listeners to them separately.
                     </p>
+                </div>
+
+            </div>
+
+            <!-- question 4  -->
+            <div class="p-8 bg-white rounded-lg">
+                <div>
+                    <p class="font-bold">
+                        Question-4: What is event bubbling in the DOM?
+                    </p>
+                </div>
+                <div class="text-[#3751fd31] max-w-7xl mx-auto  ">
+                    ----------------------------------------------------------------------------------------------------------------------------------------
+                </div>
+                <div>
+                    <p class="mb-4 ">
+                        Event bubbling in the DOM is a concept where, when an event is triggered on an element, it doesn't just affect that element. Instead, the event "bubbles up" from the target element to its parent elements, then to their parents, and so on, all the way to the root of the document. For example, if you click on a button inside a div, the event first triggers on the button and then bubbles up to the div, the body, and the document. This allows parent elements to listen for events on their child elements without attaching separate event listeners to each child.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- question 5  -->
+            <div class="p-8 bg-white rounded-lg">
+                <div>
+                    <p class="font-bold">
+                        Question-5: How do you create, add, and remove elements using JavaScript?
+                    </p>
+                </div>
+                <div class="text-[#3751fd31] max-w-7xl mx-auto  ">
+                    ----------------------------------------------------------------------------------------------------------------------------------------
+                </div>
+                <div>
+                    <p class="font-medium mb-4">
+                        To create, add, and remove elements in the DOM using JavaScript, follow these steps:
+                    </p>
+                    
+                    <ol class="space-y-2">
+                        <li>1.Creating an Element: First, you can create a new element using the document.createElement() method. This allows you to specify the type of element you want to create, like a div, p, or button. 
+                        </li>
+                        <li>2.Adding an Element: Once you have created the element, you can add it to the DOM by appending it to an existing parent element using appendChild(). First, get the reference of the parent element, then use appendChild() to add the new element to it:</li>
+                        <li>3.Removing an Element: If you need to remove an element, you first need to select the parent element, then use removeChild() to remove a child element from it. For instance .
+                            
+                        </li>
+                        <li>
+                            These steps allow you to dynamically manipulate the DOM by creating, adding, and removing elements based on your needs.
+                        </li>
+
+                    </ol>
+
+                   
                 </div>
 
             </div>
